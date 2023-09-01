@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sodiol Sayem</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/slider.css">
+</head>
+
+<body>
+
+    <!-- -------------nav bar open------------ -->
+
+    <nav>
+        <div class="logo">
+            <a href="#home">Sodiol Sayem</a>
+        </div>
+        <div class="bar">
+            <i class="bi bi-list" id="open"></i>
+            <i class="bi bi-x" id="close"></i>
+        </div>
+        <div class="nav-bar" id="navBar">
+            <ul>
+                <li class="nav-links"><a href="#about">About</a></li>
+                <li class="nav-links2"><a href="services.html">Services</a></li>
+                <li class="nav-links3"><a href="projects.html">Projects</a></li>
+                <li class="nav-links4"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------nav bar close----------- -->
+
+
+    <!-- ---------------open--------------- -->
+    <div class="home" id="home">
+        <div class="home-txt">
+            <h2>Hi This is <span class="span">Sodiol Sayem</span></h2>
+            <p>And I am a</p>
+            <span id="element"></span>
+        </div>
+
+        <div class="home-img">
+            <img src="img//PngItem_1127587.png">
+        </div>
+    </div>
+    <hr>
+    <!-- ---------------close-------------- -->
+
+
+
+    <div class="about" id="about">
+        <div class="about-img">
+            <img src="img/1_hEbJvltnslRrdEzjWQ7Img.jpg" alt="about img">
+        </div>
+
+        <div class="about-txt">
+            <p class="about-main-txt">hey there,</p>
+            <h1> this is <span class="span">Sodiol Sayem</span></h1>
+            <p class="grey-color">Currently an eighth-grade student at Police Lines High School in Sylhet, Bangladesh, I
+                am in the process of learning to become a front-end web developer. I am utilizing various languages such
+                as ...</p>
+
+            <button class="about-btn btn-f" id="hire">Hire Me</button>
+            <a href="https://www.fiverr.com/users/sayemsabbir/manage_gigs/design-a-responsive-web-using-html-css-bootstrap-js/edit?step=0&tab=general"
+                id="hireLink" target="_blank"></a>
+            <button class="about-btn btn-l" id="learn">Learn More</button>
+            <a href="about.html" id="page"></a>
+        </div>
+    </div>
+
+
+
+
+
+    <!--! projects open -->
+
+    <div class="projects" id="projects">
+
+    </div>
+
+    <!--! projects close -->
+
+
+
+
+    <!-- footer open -->
+
+    <div class="footer">
+        <div class="footer-logo">
+            <h2>Sodiol <span class="span">Sayem</span></h2> <span>|</span>
+            <p>Passionate Front-End Web Developer</p>
+        </div>
+
+        <div class="footer-ext">
+            <a href="#">Policy</a>
+            <span>.</span>
+            <a href="#">Terms and condition</a>
+        </div>
+    </div>
+
+    <!-- footer close -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['A FRONT-END WEB DEVELOPER', ' A JS DEVELOPER'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/nextPage.js"></script>
+</body>
+
+</html>
