@@ -1,0 +1,87 @@
+:root {
+    --main-font-family: 'Poppins', sans-serif;
+    --primary-font-family: 'Merriweather', serif;
+    --main-text-color: #fff;
+    --primary-text-color: rgb(170, 107, 228);
+    --btn-text-color: #8400ff;
+    --main-margin-left: 9vw;
+    --main-margin-right: 5vw;
+    --about-txt-color: #8a8a8a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background: #000021;
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.about {
+    display: flex;
+    margin-top: 25vh;
+    margin-bottom: 15vh;
+    height: 65vh;
+}
+
+.about .about-img {
+    margin-left: var(--main-margin-left);
+}
+
+.about .about-txt {
+    margin-top: 4%;
+    margin-right: var(--main-margin-right);
+    margin-left: 5vw
+}
+
+.about .about-img img {
+    border-radius: 10px;
+    width: 600px;
+}
+
+.about .about-txt .grey-color {
+    color: var(--about-txt-color);
+}
+
+.about-main-txt {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    color: #cccccc;
+}
+
+.about .about-txt .about-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: var(--btn-text-color);
+    color: var(--main-text-color);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.about .about-txt .btn-f {
+    border: 1px solid var(--btn-text-color);
+    transition: all ease-in .2s;
+}
+
+.about .about-txt .btn-f:hover {
+    background: transparent;
+}
+
+.about .about-txt .btn-l {
+    border: 1px solid var(--btn-text-color);
+    background: transparent;
+    transition: all ease-in .2s;
+}
+
+.about .about-txt .btn-l:hover {
+    background: var(--btn-text-color);
+}
