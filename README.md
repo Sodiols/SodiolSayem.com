@@ -1,1 +1,0 @@
-# sodiolsayem.io
